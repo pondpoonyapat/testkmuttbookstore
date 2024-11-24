@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - KMUTTBOOKSTORE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="KMUTTBOOKSTORE Logo">
+                <span class="logo-text">KMUTT BOOK STORE</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main-content">
+            <section class="cart">
+                <h2>Your Cart</h2>
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- รายการสินค้า -->
+                    </tbody>
+                </table>
+                <div class="cart-total">
+                    <h3>Total: ฿0</h3>
+                </div>
+                <button class="btn" onclick="checkout()">Checkout</button>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 KMUTTBOOKSTORE. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>

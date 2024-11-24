@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books - KMUTTBOOKSTORE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="KMUTTBOOKSTORE Logo">
+                <span class="logo-text">KMUTT BOOK STORE</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="main-content">
+            <section class="products">
+                <h2>Books</h2>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="images/book1.jpg" alt="Book 1">
+                        <h3>Electronics Engineering</h3>
+                        <p>฿500</p>
+                        <button onclick="addToCart('Electronics Engineering', 500)" class="btn">Add to Cart</button>
+                    </div>
+                    <div class="product-item">
+                        <img src="images/book2.jpg" alt="Book 2">
+                        <h3>AI Engineering</h3>
+                        <p>฿450</p>
+                        <button onclick="addToCart('AI Engineering', 450)" class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2024 KMUTTBOOKSTORE. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
